@@ -9,7 +9,7 @@ const USER_ID = "76561199005985110";
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: ["http://localhost:5173", "https://steam-hours-frontend.onrender.com"],
     methods: ["GET", "POST"],
   })
 );
